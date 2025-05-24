@@ -1,0 +1,31 @@
+# ── Python basics ─────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.log
+
+# ── Virtual environments ─────────────────────────────────────
+.venv/
+env/
+venv/
+
+# ── IDE & editor metadata ────────────────────────────────────
+.idea/
+.vscode/
+*.swp                 # Vim swap files
+.DS_Store             # macOS finder cruft
+
+# ── Large artefacts & data ───────────────────────────────────
+# model checkpoints / weights
+*.pt
+*.pth
+*.ckpt
+# raw or generated datasets
+data/
+house_plant_species/
+
+
+# ── OS & misc ────────────────────────────────────────────────
+Thumbs.db
+
+
